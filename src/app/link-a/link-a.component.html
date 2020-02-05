@@ -1,4 +1,6 @@
-<form formGroup="gsGroup" (ngSubmit)="submit()">
+<form [formGroup]="gsGroup" (ngSubmit)="submit()">
   <label for="name">Name</label>
   <input formControlName="fcName" type="text" id="name">
+  <button>Save</button>
+  <button type="button" (click)="reset()">Reset</button>
 </form>
