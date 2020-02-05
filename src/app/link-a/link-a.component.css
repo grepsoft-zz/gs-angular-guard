@@ -1,0 +1,14 @@
+input {
+  padding: 6px;
+  margin: 8px 2px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+button {
+  padding: 6px;
+  margin: 2px 2px;
+  border: none;
+  background: lightblue;
+  cursor: pointer;
+}
